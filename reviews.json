@@ -1,0 +1,124 @@
+{
+  "reviews": [
+    {
+      "professor": "Dr. Emily Sharma",
+      "subject": "Computer Science",
+      "stars": 4,
+      "review": "Dr. Sharma is an excellent professor. Her lectures are engaging, and she is always willing to help students during office hours. Highly recommended!"
+    },
+    {
+      "professor": "Prof. John Williamson",
+      "subject": "Economics",
+      "stars": 3,
+      "review": "Prof. Williamson's class was challenging, but I learned a lot. He could be a bit strict, but I appreciated his high standards."
+    },
+    {
+      "professor": "Dr. Olivia Martinez",
+      "subject": "Biology",
+      "stars": 5,
+      "review": "Dr. Martinez is hands down the best biology professor I've had. Her passion for the subject is contagious, and she makes the material easy to understand."
+    },
+    {
+      "professor": "Prof. Michael Chen",
+      "subject": "Mathematics",
+      "stars": 2,
+      "review": "I struggled a lot in Prof. Chen's class. His lectures were dry, and he didn't seem interested in helping students who were falling behind."
+    },
+    {
+      "professor": "Dr. Sarah Nguyen",
+      "subject": "English Literature",
+      "stars": 4,
+      "review": "Dr. Nguyen is a brilliant scholar and a caring professor. Her feedback on my essays was invaluable, and she really helped me improve my writing skills."
+    },
+    {
+      "professor": "Prof. David Gonzalez",
+      "subject": "History",
+      "stars": 3,
+      "review": "Prof. Gonzalez's class was interesting, but he sometimes seemed disorganized. The workload was also a bit heavy for a lower-level course."
+    },
+    {
+      "professor": "Dr. Isabelle Dubois",
+      "subject": "French",
+      "stars": 5,
+      "review": "Dr. Dubois is an amazing language instructor. Her classes are fun and engaging, and she really helps students improve their French proficiency."
+    },
+    {
+      "professor": "Prof. Liam Murphy",
+      "subject": "Business Administration",
+      "stars": 4,
+      "review": "Prof. Murphy is a knowledgeable and practical instructor. His lectures are relevant to real-world business challenges, and he provides valuable insights."
+    },
+    {
+      "professor": "Dr. Sophia Patel",
+      "subject": "Psychology",
+      "stars": 4,
+      "review": "Dr. Patel is a passionate and insightful professor. Her lectures are thought-provoking, and she encourages students to engage in class discussions."
+    },
+    {
+      "professor": "Prof. Aidan Fitzgerald",
+      "subject": "Physics",
+      "stars": 3,
+      "review": "Prof. Fitzgerald's class was quite challenging, but I learned a lot. He is a brilliant physicist, but his teaching style could be improved."
+    },
+    {
+      "professor": "Dr. Lila Tanaka",
+      "subject": "Art History",
+      "stars": 5,
+      "review": "Dr. Tanaka is an exceptional professor. Her passion for art is contagious, and she brings the subject to life through engaging lectures and insightful discussions."
+    },
+    {
+      "professor": "Prof. Ethan Kim",
+      "subject": "Computer Engineering",
+      "stars": 4,
+      "review": "Prof. Kim is a knowledgeable and approachable instructor. His classes are well-structured, and he is always available to help students during office hours."
+    },
+    {
+      "professor": "Dr. Avery Rodrigues",
+      "subject": "Environmental Science",
+      "stars": 4,
+      "review": "Dr. Rodrigues is a passionate and dedicated professor. Her lectures are informative, and she encourages students to think critically about environmental issues."
+    },
+    {
+      "professor": "Prof. Mia Hernandez",
+      "subject": "Nursing",
+      "stars": 5,
+      "review": "Prof. Hernandez is an excellent nursing instructor. Her hands-on teaching style and real-world experience make her classes invaluable for aspiring nurses."
+    },
+    {
+      "professor": "Dr. Luca Barbieri",
+      "subject": "Philosophy",
+      "stars": 3,
+      "review": "Dr. Barbieri's lectures can be a bit dry, but the material is fascinating. He is knowledgeable, but I wished he engaged with students more during class."
+    },
+    {
+      "professor": "Prof. Jasmine Patel",
+      "subject": "Marketing",
+      "stars": 4,
+      "review": "Prof. Patel is a great marketing instructor. Her classes are practical and relevant, and she provides valuable insights into the industry."
+    },
+    {
+      "professor": "Dr. Finn O'Malley",
+      "subject": "Political Science",
+      "stars": 4,
+      "review": "Dr. O'Malley is a thoughtful and engaging professor. His lectures are well-researched and thought-provoking, and he encourages lively discussions in class."
+    },
+    {
+      "professor": "Prof. Evelyn Nguyen",
+      "subject": "Accounting",
+      "stars": 3,
+      "review": "Prof. Nguyen's class was challenging, but I learned a lot. She is strict, but I appreciate that she holds students to high standards."
+    },
+    {
+      "professor": "Dr. Aiden Sharma",
+      "subject": "Mechanical Engineering",
+      "stars": 4,
+      "review": "Dr. Sharma is a knowledgeable and accessible professor. His lectures are clear, and he is always willing to provide additional support to students."
+    },
+    {
+      "professor": "Prof. Isabelle Moreau",
+      "subject": "Sociology",
+      "stars": 5,
+      "review": "Prof. Moreau is an exceptional sociologist and a fantastic professor. Her lectures are engaging, and she encourages critical thinking and discussion."
+    }
+  ]
+}
