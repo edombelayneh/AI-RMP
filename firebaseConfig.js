@@ -2,21 +2,21 @@ import { initializeApp } from 'firebase/app';
 import { getAuth, GoogleAuthProvider } from 'firebase/auth';
 import { getAnalytics, isSupported } from 'firebase/analytics';
 
-// Your web app's Firebase configuration
-const firebaseConfig = {
-  apiKey: "AIzaSyC8PHzTsNYt78Qn_0f3feZo3PGctkb-gR4",
-  authDomain: "ai-rate-myprofessor.firebaseapp.com",
-  projectId: "ai-rate-myprofessor",
-  storageBucket: "ai-rate-myprofessor.appspot.com",
-  messagingSenderId: "124552038187",
-  appId: "1:124552038187:web:f53c3199f3fa87c5c6e76e",
-  measurementId: "G-RC079LG481"
-};
-
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const provider = new GoogleAuthProvider();
+
+const firebaseConfig = {
+  apiKey: "AIzaSyCv0nDGfpnX1yykkmHwpbrTG4nbYD0faUA",
+  authDomain: "ai-rate-my-professor-19cc1.firebaseapp.com",
+  projectId: "ai-rate-my-professor-19cc1",
+  storageBucket: "ai-rate-my-professor-19cc1.appspot.com",
+  messagingSenderId: "734794403153",
+  appId: "1:734794403153:web:c4a68a63324170dcfcd770",
+  measurementId: "G-9SZ0FJPE4G"
+};
+
 
 // Conditionally initialize Firebase Analytics
 let analytics;
