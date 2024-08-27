@@ -2,11 +2,6 @@ import { initializeApp } from 'firebase/app';
 import { getAuth, GoogleAuthProvider } from 'firebase/auth';
 import { getAnalytics, isSupported } from 'firebase/analytics';
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const auth = getAuth(app);
-const provider = new GoogleAuthProvider();
-
 const firebaseConfig = {
   apiKey: "AIzaSyCv0nDGfpnX1yykkmHwpbrTG4nbYD0faUA",
   authDomain: "ai-rate-my-professor-19cc1.firebaseapp.com",
@@ -16,6 +11,11 @@ const firebaseConfig = {
   appId: "1:734794403153:web:c4a68a63324170dcfcd770",
   measurementId: "G-9SZ0FJPE4G"
 };
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const auth = getAuth(app);
+const provider = new GoogleAuthProvider();
 
 
 // Conditionally initialize Firebase Analytics
