@@ -30,7 +30,7 @@ This team project is an AI-powered flashcard generator application. The app leve
 </div>
 
 ## Preview
-<img width="1440" alt="Screenshot 2024-08-17 at 7 55 02 PM" src="https://github.com/user-attachments/assets/c57f33c8-4bb1-4af3-9b01-102cb6d4a421">
+<img width="1440" alt="Screenshot 2024-08-30 at 4 29 14 PM" src="https://github.com/user-attachments/assets/450ddda8-9220-4a62-a999-2a22ddfba70b">
 
 
 
