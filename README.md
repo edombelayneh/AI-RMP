@@ -1,133 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## AI Rate My Professor in Chat Interface
 
-## Getting Started
+<img src="https://img.shields.io/badge/-Solo Project-f2336f?&style=for-the-badge&logoColor=white" />
 
-First, run the development server:
+## Objective
 
-bash
-npm run dev
+This team project is an AI-powered flashcard generator application. The app leverages Groq Cloud for AI functionalities, Stripe for payment processing, and Clerk for user management. Built with Node.js and deployed on Vercel, it features a user-friendly interface using Material-UI. The app simplifies the creation and management of flashcards, offering a seamless experience for users to enhance their learning.
 
-# or
+**To view the app, <a href="https://ai-rmp-nu.vercel.app/"> Click-here</a>.** 
 
-yarn dev
+## Skills Learned
+- Proficiency in deploying web applications on Vercel.
+- Experience integrating Stripe for payment processing and Clerk for user management.
+- Advanced skills in AI integration with Groq Cloud to generate flashcards based on user input.
+- Enhanced understanding of creating interactive user interfaces with Material-UI.
+- Proficiency in state management and asynchronous operations using Node.js.
+- Ability to design and implement responsive layouts and components using Material-UI.
+- Experience in handling user authentication and secure transactions within a web application.
+- Capability to optimize performance and ensure a seamless user experience in data handling.
+  
+## Tools Used
 
-# or
+<div>
+  <img src="https://img.shields.io/badge/-NodeJs-orange?&style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/-JavaScript-e8d82a?&style=for-the-badge&logo=javascript&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Material UI-364559?&style=for-the-badge&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Stripe-blue?&style=for-the-badge&logo=stripe&logoColor=white" />
+  <img src="https://img.shields.io/badge/-Clerk-0a0a0a?&style=for-the-badge&logo=clerk&logoColor=white" />
+  <img src="https://img.shields.io/badge/-GroqCloud API-364559?&style=for-the-badge&logoColor=white" />
+</div>
 
-pnpm dev
+## Preview
+<img width="1440" alt="Screenshot 2024-08-17 at 7 55 02 PM" src="https://github.com/user-attachments/assets/c57f33c8-4bb1-4af3-9b01-102cb6d4a421">
 
-# or
 
-bun dev
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-# Project Setup
-
-## 1. Prerequisites
-
-Before you start, ensure you have the following installed:
-
-- **Miniconda:** For environment management.
-- **Python 3.8+:** The project requires Python 3.8 or higher.
-- **Node.js & npm:** Required for the Next.js frontend.
-
-## 2. Environment Setup
-
-### Python Environment
-
-1. **Create and activate the Conda environment:**
-
-   ```bash
-   conda create -n rag python=3.8
-   conda activate rag
-   ```
-
-2. **Install Python dependencies:**
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. **Set up the .env file for Python:**
-
-   - Create a `.env` file in the root of the backend directory.
-   - Add the following environment variables:
-     ```
-     PINECONE_API_KEY=your_pinecone_api_key
-     ```
-
-4. **Pinecone API Key Setup:**
-   - Generate a Pinecone API key from the Pinecone dashboard or copy the default one.
-   - Paste the key into the `.env` file with the name `PINECONE_API_KEY`.
-
-### Next.js Environment
-
-1. **Install Node.js dependencies:**
-
-   ```bash
-   npm install
-   ```
-
-2. **Set up the .env.local file for Next.js:**
-   - Create a `.env.local` file in the root of the Next.js project.
-   - Add the following environment variables:
-     ```
-     # NEXT_GROQ_API_KEY=your_groq_api_key
-     ```
-
-## 3. Pinecone Setup
-
-This project uses Pinecone for vector storage. Follow these steps:
-
-1. Sign up for a Pinecone account if you don’t have one.
-2. Generate or copy your Pinecone API key from the Pinecone dashboard.
-3. Set the Pinecone API key in your `.env` file as described above.
-
-## 4. Embedding Data with `load.ipynb`
-
-The `load.ipynb` notebook helps you generate the Pinecone index and embed your data:
-
-1. Run the code cells in `load.ipynb` to:
-   - Initialize the database in Pinecone.
-   - Embed your data using the `intfloat/multilingual-e5-large` model.
-2. Ensure the notebook runs successfully, as it will handle both database creation and data embedding.
-
-## 5. Installing Dependencies
-
-To ensure consistent environments, use `pip-chill` to generate a list of installed Python packages:
-
-1. **Install `pip-chill`:**
-
-   ```bash
-   pip install pip-chill
-   ```
-
-2. **Generate the `requirements.txt` file:**
-
-   ```bash
-   pip-chill > requirements.txt
-   ```
-
-3. **Install dependencies from the `requirements.txt` file:**
-   ```bash
-   pip install -r requirements.txt
-   ```
+## To Execute
+- <a href="https://ai-rmp-nu.vercel.app/"> Click-here</a>
